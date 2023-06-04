@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color:azure;
+  background-size: 100%;
+}
+
+.zar-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.zar {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+button {margin-top: 15px;
+  padding: 10px 24px;
+  background-color: #383730;
+  color: #fff;
+  border:#000;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sonuclar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.sonuclar li {
+  margin-bottom: 5px;
+}
